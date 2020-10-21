@@ -1,0 +1,12 @@
+logging:
+    file:
+        name: D:/Downloads/ELK/logs/book-appointment-module.log
+server:
+    port: 8004
+spring:
+    application:
+        name: Book-Appointment-Service
+    cloud:
+        consul:
+            host: localhost
+            port: 6060
